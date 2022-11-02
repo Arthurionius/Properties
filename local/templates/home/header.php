@@ -60,19 +60,24 @@
           <div class="col-6 col-md-6">
             <p class="mb-0">
               <a href="#" class="mr-3">
-                  <? $APPLICATION->IncludeComponent(
-                    "bitrix:main.include",
-                    "",
-                    array(
-                      "AREA_FILE_SHOW" => "file",
-                      "AREA_FILE_SUFFIX" => "inc",
-                      "EDIT_TEMPLATE" => "",
-                      "PATH" => "/include/phone.php"
-                    )
-                    ); ?>
+                <span class="text-black fl-bigmug-line-phone351"></span>
+                <span class="d-none d-md-inline-block ml-2">
+                <? $APPLICATION->IncludeComponent(
+                  "bitrix:main.include",
+                  "",
+                  array(
+                    "AREA_FILE_SHOW" => "file",
+                    "AREA_FILE_SUFFIX" => "inc",
+                    "EDIT_TEMPLATE" => "",
+                    "PATH" => "/include/phone.php"
+                  )
+                  ); ?>
+                </span>
               </a>
               <a href="#">
-                  <? $APPLICATION->IncludeComponent(
+                <span class="text-black fl-bigmug-line-email64"></span>
+                <span class="d-none d-md-inline-block ml-2">
+                <? $APPLICATION->IncludeComponent(
                       "bitrix:main.include",
                       "",
                       array(
@@ -82,6 +87,7 @@
                         "PATH" => "/include/email.php"
                       )
                       ); ?>
+                </span>
               </a>
             </p>
           </div>
@@ -107,16 +113,19 @@
             <div class="col-8 col-md-8 col-lg-4">
               <h1 class="">
                 <a href="index.html" class="h5 text-uppercase text-black">
-                  <? $APPLICATION->IncludeComponent(
-                    "bitrix:main.include",
-                    "",
-                    array(
-                        "AREA_FILE_SHOW" => "file",
-                        "AREA_FILE_SUFFIX" => "inc",
-                        "EDIT_TEMPLATE" => "",
-                        "PATH" => "/include/logo.php"
-                    )
-                    ); ?>
+                  <strong>
+                    <? $APPLICATION->IncludeComponent(
+                        "bitrix:main.include",
+                        "",
+                        array(
+                            "AREA_FILE_SHOW" => "file",
+                            "AREA_FILE_SUFFIX" => "inc",
+                            "EDIT_TEMPLATE" => "",
+                            "PATH" => "/include/logo.php"
+                        )
+                      ); ?>
+                    <span class="text-danger">.</span>
+                  </strong>
                 </a>
               </h1>
             </div>

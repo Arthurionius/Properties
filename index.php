@@ -105,40 +105,46 @@ $APPLICATION->IncludeComponent(
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
-				 <?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
-	"",
-	Array(
-		"AREA_FILE_SHOW" => "file",
-		"AREA_FILE_SUFFIX" => "inc",
-		"EDIT_TEMPLATE" => "",
-		"PATH" => "/include/description_left.php"
-	)
-);?>
+				<div class="feature d-flex align-items-start">
+					<?$APPLICATION->IncludeComponent(
+						"bitrix:main.include",
+						"",
+						Array(
+							"AREA_FILE_SHOW" => "file",
+							"AREA_FILE_SUFFIX" => "inc",
+							"EDIT_TEMPLATE" => "",
+							"PATH" => "/include/description_left.php"
+						)
+					);?>
+				</div>
 			</div>
 			<div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
-				 <?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
-	"",
-	Array(
-		"AREA_FILE_SHOW" => "file",
-		"AREA_FILE_SUFFIX" => "inc",
-		"EDIT_TEMPLATE" => "",
-		"PATH" => "/include/description_mid.php"
-	)
-);?>
+				<div class="feature d-flex align-items-start">
+					<?$APPLICATION->IncludeComponent(
+						"bitrix:main.include",
+						"",
+						Array(
+							"AREA_FILE_SHOW" => "file",
+							"AREA_FILE_SUFFIX" => "inc",
+							"EDIT_TEMPLATE" => "",
+							"PATH" => "/include/description_mid.php"
+						)
+					);?>
+				</div>
 			</div>
 			<div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
-				 <?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
-	"",
-	Array(
-		"AREA_FILE_SHOW" => "file",
-		"AREA_FILE_SUFFIX" => "inc",
-		"EDIT_TEMPLATE" => "",
-		"PATH" => "/include/description_right.php"
-	)
-);?>
+				<div class="feature d-flex align-items-start">
+					<?$APPLICATION->IncludeComponent(
+						"bitrix:main.include",
+						"",
+						Array(
+							"AREA_FILE_SHOW" => "file",
+							"AREA_FILE_SUFFIX" => "inc",
+							"EDIT_TEMPLATE" => "",
+							"PATH" => "/include/description_right.php"
+						)
+					);?>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -528,135 +534,135 @@ $APPLICATION->IncludeComponent(
 			<div class="nonloop-block-13 owl-carousel">
 				<div class="slide-item">
 					<div class="team-member text-center">
- <img alt="Image" src="images/person_1.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
+ 						<img alt="Image" src="images/person_1.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
 						<div class="text p-3">
 							<h2 class="mb-2 font-weight-light text-black h4">Megan Smith</h2>
- <span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
+ 						<span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
 							<p class="mb-5">
 								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est.
 							</p>
 							<p>
- <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
+ 								<a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="slide-item">
 					<div class="team-member text-center">
- <img alt="Image" src="images/person_2.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
+ 						<img alt="Image" src="images/person_2.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
 						<div class="text p-3">
 							<h2 class="mb-2 font-weight-light text-black h4">Brooke Cagle</h2>
- <span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
+ 							<span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
 							<p class="mb-5">
 								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est.
 							</p>
 							<p>
- <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
+ 								<a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="slide-item">
 					<div class="team-member text-center">
- <img alt="Image" src="images/person_3.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
+ 						<img alt="Image" src="images/person_3.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
 						<div class="text p-3">
 							<h2 class="mb-2 font-weight-light text-black h4">Philip Martin</h2>
- <span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
+ 							<span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
 							<p class="mb-5">
 								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est.
 							</p>
 							<p>
- <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
+ 								<a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="slide-item">
 					<div class="team-member text-center">
- <img alt="Image" src="images/person_1.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
+ 						<img alt="Image" src="images/person_1.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
 						<div class="text p-3">
 							<h2 class="mb-2 font-weight-light text-black h4">Megan Smith</h2>
- <span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
+ 							<span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
 							<p class="mb-5">
 								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est.
 							</p>
 							<p>
- <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
+ 								<a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="slide-item">
 					<div class="team-member text-center">
- <img alt="Image" src="images/person_2.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
+ 						<img alt="Image" src="images/person_2.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
 						<div class="text p-3">
 							<h2 class="mb-2 font-weight-light text-black h4">Brooke Cagle</h2>
- <span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
+ 							<span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
 							<p class="mb-5">
 								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est.
 							</p>
 							<p>
- <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
+ 								<a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="slide-item">
 					<div class="team-member text-center">
- <img alt="Image" src="images/person_3.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
+ 						<img alt="Image" src="images/person_3.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
 						<div class="text p-3">
 							<h2 class="mb-2 font-weight-light text-black h4">Philip Martin</h2>
- <span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
+ 							<span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
 							<p class="mb-5">
 								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est.
-							</p>
+							</p>		
 							<p>
- <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
+ 								<a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="slide-item">
 					<div class="team-member text-center">
- <img alt="Image" src="images/person_1.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
+ 						<img alt="Image" src="images/person_1.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
 						<div class="text p-3">
 							<h2 class="mb-2 font-weight-light text-black h4">Megan Smith</h2>
- <span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
+ 							<span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
 							<p class="mb-5">
 								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est.
 							</p>
 							<p>
- <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
+ 								<a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="slide-item">
 					<div class="team-member text-center">
- <img alt="Image" src="images/person_2.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
+ 						<img alt="Image" src="images/person_2.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
 						<div class="text p-3">
 							<h2 class="mb-2 font-weight-light text-black h4">Brooke Cagle</h2>
- <span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
+ 							<span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
 							<p class="mb-5">
 								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est.
 							</p>
 							<p>
- <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
+ 								<a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="slide-item">
 					<div class="team-member text-center">
- <img alt="Image" src="images/person_3.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
+ 						<img alt="Image" src="images/person_3.jpg" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
 						<div class="text p-3">
 							<h2 class="mb-2 font-weight-light text-black h4">Philip Martin</h2>
- <span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
+ 							<span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
 							<p class="mb-5">
 								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est.
 							</p>
 							<p>
- <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
+ 								<a href="#" class="text-black p-2"><span class="icon-facebook"></span></a> <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a> <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
 							</p>
 						</div>
 					</div>

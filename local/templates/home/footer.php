@@ -2,16 +2,18 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-          <? $APPLICATION->IncludeComponent(
-              "bitrix:main.include",
-              "",
-              array(
-                "AREA_FILE_SHOW" => "file",
-                "AREA_FILE_SUFFIX" => "inc",
-                "EDIT_TEMPLATE" => "",
-                "PATH" => "/include/about.php"
-              )
-            ); ?>
+            <div class="mb-5">
+              <? $APPLICATION->IncludeComponent(
+                "bitrix:main.include",
+                "",
+                array(
+                  "AREA_FILE_SHOW" => "file",
+                  "AREA_FILE_SUFFIX" => "inc",
+                  "EDIT_TEMPLATE" => "",
+                  "PATH" => "/include/about.php"
+                )
+              ); ?>
+            </div>
           </div>
 
           <div class="col-lg-4 mb-5 mb-lg-0">
